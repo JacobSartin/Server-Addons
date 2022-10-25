@@ -1,5 +1,5 @@
 # Server-Addons
-Fabric Minecraft Mod that adds quality of life such as deepslate generation, enchanted golden apple crafting, bedrock crafting, and more!
+Fabric Minecraft Mod that adds quality of life such as deepslate generation, enchanted golden apple crafting, bedrock crafting, and more to come!
 
 ## Features
 - ### Deepslate Generation: 
