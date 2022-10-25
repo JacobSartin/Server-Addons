@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_horse_armor"
+    },
+    "title": "Stuff and Things™",
+    "description": "Some pretty cool things and stuff (added by serveraddons)",
+    "background": "minecraft:gold",
+    "annouce_to_chat": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  }
+}

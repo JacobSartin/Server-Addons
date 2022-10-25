@@ -1,0 +1,36 @@
+{
+  "parent": "serveraddons:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": "Hungy",
+    "description": "mans is mad hungy ngl",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:apple"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "serveraddons:enchanted_golden_apple_from_apple",
+      "serveraddons:enchanted_golden_apple_from_golden_apple"
+    ]
+  }
+}

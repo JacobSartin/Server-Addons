@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "server-addons",
+  "version": "${version}",
+  "name": "Server Addons",
+  "description": "",
+  "authors": [
+    "Jacob Sartin"
+  ],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/serveraddons/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.jacobsartin.serveraddons.mixin.client.ServerAddonsClient"
+    ],
+    "main": [
+      "com.jacobsartin.serveraddons.ServerAddons"
+    ]
+  },
+  "mixins": [
+    "server-addons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

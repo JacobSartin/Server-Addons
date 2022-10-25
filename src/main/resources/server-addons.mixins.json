@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.jacobsartin.serveraddons.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AddDeepslateGeneratorMixin",
+    "FluidBlockAccessor"
+  ],
+  "client": [
+    "client.ServerAddonsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

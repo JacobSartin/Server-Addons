@@ -1,0 +1,35 @@
+    {
+      "parent": "serveraddons:root",
+      "display": {
+        "icon": {
+          "item": "minecraft:bedrock"
+        },
+        "title": "Got Bread?",
+        "description": "Bet that netherite was fun to get",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+      },
+      "requirements": [
+        [
+          "has_item"
+        ]
+      ],
+      "criteria": {
+        "has_item": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "minecraft:netherite_block"
+              }
+            ]
+          }
+        }
+      },
+      "rewards": {
+        "recipes": [
+          "serveraddons:bedrock"
+        ]
+      }
+    }
