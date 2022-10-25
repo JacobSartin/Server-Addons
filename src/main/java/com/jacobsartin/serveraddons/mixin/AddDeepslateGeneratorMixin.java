@@ -19,7 +19,7 @@ public class AddDeepslateGeneratorMixin{
         //checks if cobblestone so that it will only run at the right return statement
         if(world.getBlockState(pos).equals(Blocks.COBBLESTONE.getDefaultState()))
         {
-            //checks if it should overwrite the cobblestone block based on the expected condition (block of netherite below the position
+            //checks if it should overwrite the cobblestone block based on the expected condition (block of netherite below the position)
             if(world.getBlockState(pos.down()).isOf(Blocks.NETHERITE_BLOCK))
             {
                 world.setBlockState(pos, Blocks.COBBLED_DEEPSLATE.getDefaultState());

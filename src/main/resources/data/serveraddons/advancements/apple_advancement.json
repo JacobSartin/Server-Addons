@@ -10,18 +10,15 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "requirements": [
-    [
-      "has_item"
-    ]
-  ],
   "criteria": {
-    "has_item": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:apple"
+            "items": [
+              "minecraft:apple"
+            ]
           }
         ]
       }

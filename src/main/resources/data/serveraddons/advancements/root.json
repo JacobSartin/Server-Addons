@@ -5,16 +5,18 @@
     },
     "title": "Stuff and Things™",
     "description": "Some pretty cool things and stuff (added by serveraddons)",
-    "background": "minecraft:gold",
+    "background": "minecraft:textures/block/gold_block.png",
     "annouce_to_chat": false
   },
   "criteria": {
-    "has_item": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:crafting_table"
+            "items": [
+              "minecraft:crafting_table"
+            ]
           }
         ]
       }

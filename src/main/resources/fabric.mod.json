@@ -15,7 +15,6 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.jacobsartin.serveraddons.mixin.client.ServerAddonsClient"
     ],
     "main": [
       "com.jacobsartin.serveraddons.ServerAddons"
