@@ -10,4 +10,4 @@ Fabric Minecraft Mod that adds quality of life such as deepslate generation, enc
   - the recipes are unlocked by getting an apple
 
 - ### Bedrock Crafting:
-   - Bedrock can be crafted with 5 obsidian and 4 netherite blocks in the pattern of tnt
+   - Bedrock can be crafted by surrounding a block of netherite with 8 obsidian
